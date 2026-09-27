@@ -108,14 +108,14 @@ async function clipboard(text) {
 (() => {
     let thishref = location.href;
     let socket = io(thishref);
-    //let socket = io("https://bonziworld.org");
+    //let socket = io("https://bonziworld-classic-production-7f3d.up.railway.app/");
     delete io;
     let error_id = "error_disconnect";
     let level = 0;
     let welcomeversion = 6;
     let typestate = 0;
     let room = "";
-    let censor = [/nigger/gi, /faggot/gi, /fuck/gi, /shit/gi, /slut/gi, /cunt/gi, /kike/gi, /goatse/gi, /kekma/gi, /ass/gi, /sex/gi, /cock/gi]
+    let censor = []
     let minx = 0;
     //0 = normal, 1 = DM, 2 = reply
     window.talkstate = 0;
