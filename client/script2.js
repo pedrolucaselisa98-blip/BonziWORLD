@@ -170,7 +170,7 @@ async function clipboard(text) {
     let welcomeversion = 6;
     let typestate = 0;
     let room = "";
-    let censor = [/nigger/gi, /faggot/gi, /fuck/gi, /shit/gi, /slut/gi, /cunt/gi, /kike/gi, /goatse/gi, /kekma/gi, /ass/gi, /sex/gi, /cock/gi]
+    let censor = []
     let minx = 0;
     //0 = normal, 1 = DM, 2 = reply
     window.talkstate = 0;
