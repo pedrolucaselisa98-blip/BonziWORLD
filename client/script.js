@@ -151,7 +151,7 @@ async function clipboard(text) {
         "peedy": "peedy",
         "clippy": "clippy"
     }
-    const colors = ["purple", "blessed", "yellow", "allah", "red", "blue", "green", "pink", "brown", "orange", "black", "jew", "floyd", "cyan", "white", "king", "pope", "rabbi", "peedy", "clippy", "troll", "jabba","windows93","satoko","trump"];
+    const colors = ["purple", "blessed", "yellow", "allah", "red", "blue", "green", "pink", "brown", "orange", "black", "cyan", "white", "king", "pope", "peedy", "clippy", "troll"];
   
     //Set up stylesheets
     const sheets = {
